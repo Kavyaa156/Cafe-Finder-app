@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <section id="Home-screen" class="screen active">
+      <img src="cafes.jpg" alt="image" class="banner" /><br /><br />
+      <div class="search">
+        <input type="text" placeholder="&#128269; Search your location..." />
+      </div>
+      <br />
+    </section> -->
+    <!-- Change 'hidden' to just remove 'active' class -->
+    <!-- <section id="cafe-list-screen" class="screen"></section>
+    <section id="cafe-detail-screen" class="screen"></section>
+    <section id="booking-modal" class="screen hidden"></section>
+    <section id="delivery-modal" class="screen hidden"></section> -->
+
+    <!-- CODE_2 -->
+
+    <!-- <section id="Home-screen" class="screen active">
+      <img src="cafes.jpg" alt="image" class="banner" /><br /><br />
+      <div class="search">
+        <input type="text" placeholder="&#128269; Search your location..." />
+      </div>
+      <br /> -->
+    <!-- Add test button -->
+    <!-- <div style="text-align: center"> -->
+    <!-- Change your test button to call displayCafes first -->
+    <!-- <button onclick="displayCafes(); showScreen('cafe-list-screen');">
+          Find Cafes
+        </button>
+      </div>
+    </section> -->
+
+    <section id="Home-screen" class="screen active">
+      <img src="cafes.jpg" alt="image" class="banner" /><br /><br />
+      <div class="search">
+        <input type="text" placeholder="&#128269; Search your location..." />
+      </div>
+      <br />
+      <div style="text-align: center">
+        <button class="location-btn" onclick="getCurrentLocation()">
+          📍 Find Cafes Near Me
+        </button>
+      </div>
+    </section>
+
+    <section id="cafe-list-screen" class="screen">
+      <h2>Cafe List Screen</h2>
+      <button onclick="showScreen('Home-screen')">Back to Home</button>
+      <button onclick="showScreen('cafe-detail-screen')">
+        View Cafe Details
+      </button>
+    </section>
+
+    <section id="cafe-detail-screen" class="screen">
+      <h2>Cafe Details Screen</h2>
+      <button onclick="showScreen('cafe-list-screen')">Back to List</button>
+    </section>
+
+    <div id="booking-modal" class="modal"></div>
+    <div id="delivery-modal" class="modal"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
