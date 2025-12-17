@@ -1,8 +1,7 @@
 # ☕ Cafe Finder Web App
 
 A beginner-friendly web application that helps users discover and interact with nearby cafes. Built with vanilla HTML, CSS, and JavaScript as a learning project.
-
-![Cafe Finder Demo](https://via.placeholder.com/800x400/e9edc9/333333?text=Cafe+Finder+App)
+> **⚠️ This is the frontend-only version. Check out the [full-stack version with backend & database](https://github.com/YOUR-USERNAME/CaffeConnect) for the complete implementation!**
 
 ## 🌟 Features
 
